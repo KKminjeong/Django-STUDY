@@ -32,7 +32,7 @@
 
 * CSS = Cascading (폭포수같은) Style Sheets
 * 여러 CSS 속성들이 동일한 HTML 태그에 차례대로 위에서부터 아래로 중첩되어 적용됨
-* CSS 파일을 따로 만들고 html head태그에 파일링크로 넣음
+* CSS 파일을 따로 만들고 html head 태그에 파일 링크로 넣음
 
 ```
 h1{
@@ -106,3 +106,46 @@ h1{
 1. Webpack 튜토리얼(with SASS & Babel) : https://heropy.blog/2017/10/18/webpack_1_start_ejs_sass/
 2. Bootstrap 5 & SASS : https://www.freecodecamp.org/news/learn-bootstrap-5-and-sass-by-building-a-portfolio-website/
 
+
+
+## Javascript
+
+```
+#HTML
+<input type="button"
+	onclick="testAlertBox();"
+	value="클릭하세요"/>
+	
+	
+#Javascript
+<script type="text/javascript">
+ function testAlertBox(){
+ alert("클릭하셨습니다");
+ }
+</script>
+```
+
+* 웹사이트 개발자도구 (ctrl+shift+I)  Console 에서 Javascript 코드를 입력한 후, 테스트 해볼 수 있음
+
+#### 참고링크
+
+1. 부트스트랩 (반응형/ HTML, CSS, JS 프레임워크)
+
+   : http://getbootstrap.com/ 
+
+   : http://bootstrapk.com/ (부트스트랩 번역 사이트)
+
+2. Materialize (Bootstrap for material design)
+
+   : http://materializecss.com/
+
+3. BoilerPlate
+
+   : https://html5boilerplate.com/
+
+4. IDE (Integrated Development Environment 통합 개발 환경)
+
+   - Sublime Text (간편하고 가벼움)
+   - Brackets (실시간 브라우저 연동 preview, 프론트개발에 추천)
+   - Atom (프로젝트 단위로 프로그래밍하기에 편리함)
+   - Visual Studio Code (가장 대중적인 IDE)
