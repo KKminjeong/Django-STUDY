@@ -48,4 +48,4 @@
 * 응답에 담긴 데이터
   * HTML / JS / CSS / image files, JSON, XML 
 
-![REST API model](C:\Users\kanga\gitProjects\Django study\REST API model.png)
+![REST API model](https://user-images.githubusercontent.com/86338750/152669960-d989c446-bfa2-44f6-a77b-dcd9726023fd.png)
