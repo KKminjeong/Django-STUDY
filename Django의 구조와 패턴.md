@@ -45,8 +45,7 @@
   * View 는 MVC 패턴의 Controller 역할
   * Model 에서 데이터를 가져오고, 데이터를 처리한 결과를 Template 에 전달하는 역할을 수행하며, 최종 결과를 유저에게 응답
 
-​                                 ![](C:\Users\kanga\gitProjects\Django study\MTV.PNG)
-
+![MTV](https://user-images.githubusercontent.com/86338750/152672179-db2d8e7d-f8d0-4cb9-8fde-291296aed21d.PNG)
 
 
 #### MTV Pattern 진행 과정
