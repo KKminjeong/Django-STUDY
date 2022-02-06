@@ -20,7 +20,8 @@
 * View : 사용자 인터페이스 구현 (화면을 구성하기 위한 자산과 코드 )
 * Controller : 내부 계산 & 데이터 처리 로직
 
-![](C:\Users\kanga\gitProjects\Django study\mvc pattern.PNG)
+![mvc pattern](https://user-images.githubusercontent.com/86338750/152672136-3d11184b-132c-4b2d-a54d-ac3ebcb648ae.PNG)
+
 
 1. User가 web browser을 통해 요청을 보냄.
 
