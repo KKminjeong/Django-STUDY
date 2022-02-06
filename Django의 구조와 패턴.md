@@ -56,7 +56,7 @@
 ![Django process](https://user-images.githubusercontent.com/86338750/152672196-f3374176-8426-4abf-a183-854cd05c9613.PNG)
 
 * 클라언트로부터 요청을 받으면 URLconf 모듈을 이용하여 URL 을 분석.
-* URL 분석 결과를 통해 해당 URL 에 대한 처리를 담당할 VIew를 결정.
+* URL 분석 결과를 통해 해당 URL 에 대한 처리를 담당할 View를 결정.
 * View 는 자신의 로직을 실행하면서, DB 처리가 필요한 경우 Model 을 통해 처리하고 그 결과를 받음.
 * View 는 자신의 로직 처리가 끝나면 Template 을 사용하여 클라이언트(유저)에 응답할 HTML 파일을 생성.
 * View 는 최종적으로 HTML 파일을 클라이언트(유저)에게 보내 응답.
