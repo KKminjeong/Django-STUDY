@@ -50,7 +50,7 @@
 
 #### MTV Pattern 진행 과정
 
-![](C:\Users\kanga\gitProjects\Django study\Django process.PNG)
+![Django process](https://user-images.githubusercontent.com/86338750/152672196-f3374176-8426-4abf-a183-854cd05c9613.PNG)
 
 * 클라언트로부터 요청을 받으면 URLconf 모듈을 이용하여 URL 을 분석.
 * URL 분석 결과를 통해 해당 URL 에 대한 처리를 담당할 VIew를 결정.
