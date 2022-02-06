@@ -62,4 +62,5 @@
 
 #### 참고자료
 
-![](C:\Users\kanga\gitProjects\Django study\장고 과정.PNG)
+![장고 과정](https://user-images.githubusercontent.com/86338750/152672217-7596754d-4198-4dd0-809b-8b452aa6e4b6.PNG)
+
