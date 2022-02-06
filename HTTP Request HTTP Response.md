@@ -40,12 +40,12 @@
 * PUT : 리소스를 대체, 해당 리소스가 없으면 생성
 * PATCH : 리소스를 일부만 변경
 
-#### Response : 서버로부터의 
+#### Response : 서버로부터의 응답
 
 * 응답코드 (Response 헤더 영역)
   * 200(서버 응답 잘됨), 400(Bad request), 404(Not found)
 
 * 응답에 담긴 데이터
-  * HTML / JS / CSS / image files, JSON, XML 
+  * HTML / JS / CSS / image files, JSON, XML 등
 
 ![REST API model](https://user-images.githubusercontent.com/86338750/152669960-d989c446-bfa2-44f6-a77b-dcd9726023fd.png)
