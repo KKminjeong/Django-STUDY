@@ -66,3 +66,5 @@
 #### 참고자료
 
 ![장고 과정](https://user-images.githubusercontent.com/86338750/152672217-7596754d-4198-4dd0-809b-8b452aa6e4b6.PNG)
+
+* Django에서는 1, 2, 3이 하나의 세트라고 생각해주면 좋음 (+ forms.py, models.py)
