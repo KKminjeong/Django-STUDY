@@ -20,15 +20,17 @@
 * View : 사용자 인터페이스 구현 (화면을 구성하기 위한 자산과 코드 )
 * Controller : 내부 계산 & 데이터 처리 로직
 
-![mvc pattern](https://user-images.githubusercontent.com/86338750/152672136-3d11184b-132c-4b2d-a54d-ac3ebcb648ae.PNG)
 
 
-1. User가 web browser을 통해 요청을 보냄.
+#### MVC Pattern 진행 과정
 
-2. controller가 user의 요청을 받아서 해석한 후 DB와 통신을 주고 받아야 하는 게 있다면 model로 보내고, model의 java 코드가 DB에 SQL 같은 형식으로 요청을 함.
-3. model이 받은 DB를 Controller에게 반환.
-4. controller가 판단 후 view에 넘겨줌
-5. View에 있는 HTML, Css, Java 등에 데이터를 넘겨주고 묶어서 User에게 넘겨줌.
+![](C:\Users\kanga\gitProjects\Django study\mvc pattern.PNG)
+
+* User가 web browser을 통해 요청을 보냄.
+* controller가 user의 요청을 받아서 해석한 후 DB와 통신을 주고 받아야 하는 게 있다면 model로 보내고, model의 java 코드가 DB에 SQL 같은 형식으로 요청을 함.
+* model이 받은 DB를 Controller에게 반환.
+* controller가 판단 후 view에 넘겨줌
+* View에 있는 HTML, Css, Java 등에 데이터를 넘겨주고 묶어서 User에게 넘겨줌.
 
 
 
@@ -45,12 +47,13 @@
   * View 는 MVC 패턴의 Controller 역할
   * Model 에서 데이터를 가져오고, 데이터를 처리한 결과를 Template 에 전달하는 역할을 수행하며, 최종 결과를 유저에게 응답
 
-![MTV](https://user-images.githubusercontent.com/86338750/152672179-db2d8e7d-f8d0-4cb9-8fde-291296aed21d.PNG)
+​                                 ![](C:\Users\kanga\gitProjects\Django study\MTV.PNG)
+
 
 
 #### MTV Pattern 진행 과정
 
-![Django process](https://user-images.githubusercontent.com/86338750/152672196-f3374176-8426-4abf-a183-854cd05c9613.PNG)
+![](C:\Users\kanga\gitProjects\Django study\Django process.PNG)
 
 * 클라언트로부터 요청을 받으면 URLconf 모듈을 이용하여 URL 을 분석.
 * URL 분석 결과를 통해 해당 URL 에 대한 처리를 담당할 VIew를 결정.
@@ -62,5 +65,6 @@
 
 #### 참고자료
 
-![장고 과정](https://user-images.githubusercontent.com/86338750/152672217-7596754d-4198-4dd0-809b-8b452aa6e4b6.PNG)
+![](C:\Users\kanga\gitProjects\Django study\장고 과정.PNG)
 
+* Web server(nginx / Apache) :  웹서버 
