@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Django Polls (version 1.0)</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Do+Hyeon|Noto+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand">Django Polls (version 1.0)</span>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href = "{% url 'polls:index' %}">Voting</a></li>
+          <li class="navbar-right"><a href = "{% url 'admin:index' %}">Administrator</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Copyright ⓒ 2020 Replus | Django Polls | All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

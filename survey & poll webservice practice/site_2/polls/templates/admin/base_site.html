@@ -1,0 +1,17 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}
+  Django Polls 관리자 페이지
+{% endblock %}
+
+{% block extrastyle %}
+  <link href="//fonts.googleapis.com/css?family=Do+Hyeon|Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static 'polls/admin_custom.css' %}" />
+{% endblock %}
+
+{% block branding %}
+  <h1 id="site-name"><a href="{% url 'admin:index' %}">Django Polls 관리자 페이지 (ver 1.0)</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

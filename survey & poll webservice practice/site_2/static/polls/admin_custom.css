@@ -1,0 +1,54 @@
+body {
+    background-image: url("images/main_bg.jpg");
+    background-size: cover;
+    font-family: 'Do Hyeon', "Noto Sans KR", "Titillium Web", "Helvetica", sans-serif;
+}
+
+h1{
+  color: black;
+  font-size: 2em;
+
+}
+
+a {
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 400;
+}
+
+th {
+  font-size: 1.5em !important;
+}
+
+th a {
+  color: black !important;
+
+}
+
+caption, .module h2 {
+  background-color: black !important;
+  color: white !important;
+}
+
+.breadcrumbs {
+  background-color: steelblue !important;
+}
+
+.object-tools > li > .addlink, .historylink{
+  background-color: black !important;
+}
+
+.field-__str__{
+  font-size: 1.5em !important;
+}
+
+.module {
+  background: None !important;
+}
+
+#header {
+  background-color: black;
+}
+
+#user-tools {
+  font-size: 1.5em;
+}
